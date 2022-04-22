@@ -1,0 +1,110 @@
+/* basic resets */
+body{
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+
+    margin: 0rem 2rem;
+}
+
+
+*{
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-style: none;
+}
+li{
+    text-decoration: none;
+    font-style: none;
+}
+
+
+
+
+/* footer tag */
+.footer_parent{
+    background-color: white;
+    height: 3rem;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+}
+.footer_child{
+     
+    background-color: white;
+     color: brown;
+     /* for boldness */
+     font-size: 2rem;
+     font-weight: 400;
+
+     /* enforcing uppercase */
+     text-transform: uppercase;
+ 
+}
+
+
+
+/* when we hover over the navbar */
+a:link , a:visited{
+    color:rgb(15, 232, 48);
+}
+a:hover , a:active{
+    color:red;
+}
+
+
+/* ****************main************** */
+
+.parent{
+    display: flex;
+    /* border: 10px solid rgb(0, 255, 55); */
+    text-align: center;
+    justify-content: space-evenly;
+}
+.child{
+    width:30%;
+}
+
+
+
+/* *********Nav bar********** */
+
+header{
+    display: flex;
+    /* manages space horizontally */
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    font-size: 35px;
+}
+
+/* Inside the list */
+ul{
+    display: flex;
+    width: 20rem;
+    justify-content: space-evenly;
+}
+ul>li{
+    width: 30%;
+    font-size: 1.5rem;
+
+}
+
+/* to make image responsive */
+.main_img{
+    width: 100%;
+    height: auto;
+}
